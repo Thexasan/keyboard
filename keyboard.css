@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(229, 145, 225),
+    rgb(145, 229, 218)
+  );
+}
+table {
+  border-spacing: 8px;
+  margin-left: 4px;
+}
+h1 {
+  text-align: center;
+  color: rgb(8, 87, 151);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+tr {
+  background-color: darkturquoise;
+}
+.container {
+  width: 100%;
+}
+td {
+  padding: 25px;
+  font-weight: 100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  border-radius: 10px;
+  text-align: center;
+  background-color: initial;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+td:hover {
+  background-color: aquamarine;
+}
