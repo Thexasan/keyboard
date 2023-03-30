@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,700;1,400&family=Inconsolata:wght@200;300;400;500;600;700;800&family=Karma:wght@500&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Vesper+Libre:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #000000;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #181818;
+    padding: 0 30px;
+
+}
+
+nav {
+
+    display: flex;
+    margin-top: 10px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav h3 {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin-left: 7px;
+    margin-right: 400px;
+}
+
+li {
+    padding: 10px 15px 10px 15px;
+    color: aliceblue;
+    font-weight: 350;
+    font-size: 14px;
+    margin-left: 20px;
+
+}
+
+li:hover {
+    color: #00D6B4;
+}
+
+.logo:hover {
+    color: gray;
+}
+
+.logo2 {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px;
+    gap: 15px;
+    color: #181818;
+    background: #FFFFFF;
+    border-radius: 14px;
+    ;
+    cursor: pointer;
+}
+
+.logo2:hover {
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+}
+
+.logo2:active {
+    color: #e7edf0;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px #575858, -1px -1px 10px #FFFFFF;
+}
+
+
+
+.container {
+    background-image: url(/git/IMAGE.png);
+    height: 716px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.text {
+    padding-top: 466px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.q {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.img {
+    text-align: end;
+}
+
+
+
+
+.container2 {
+    padding-top: 113px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.f {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.container3 {
+    margin-top: 50px;
+    background-image: url(/git/IMAGE\ \(1\).png);
+    height: 600px;
+}
+
+.text3 {
+    padding-top: 270px;
+    text-align: end;
+    margin-right: 50px;
+}
+
+.pp {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.ff {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 950px;
+    color: #C0C0C0;
+}
+
+
+.ii {
+    width: 100%;
+}
+
+.container5 {
+    background-image: url(IMAGE\ \(1\).jpg);
+    height: 600px;
+}
+
+.text4 {
+    padding-top: 280px;
+    text-align: end;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+.mm {
+    margin-top: 200px;
+    text-align: end;
+}
+
+.container6 {
+    margin-top: 100px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+
+.container7 {
+    background-image: url(IMAGE\ \(2\).png);
+    height: 600px;
+}
+
+.container8 {
+    margin-top: 100px;
+}
+
+.but {
+    text-align: center;
+}
+
+.logo3 {
+    padding: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+
+span{
+    background: #000000;
+    color: #000000;
+    border: 12.5833px solid #000000;
+    border-radius: 100px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.d{
+    font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+
+.ds{
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
